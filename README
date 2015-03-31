@@ -16,7 +16,8 @@ contents:
     - 14 applications
 
   data-2kpeople-more.xml (197,9MB)
-    same amount of people, roughly 5 times the amount of messages and activities per person
+    same amount of people, roughly 5 times the amount of messages and
+      activities per person
     - 2011 people
     - 2000 addresses
     - 200 groups
@@ -36,6 +37,12 @@ contents:
     - 99575 activity objects
     - 100 organizations
     - 14 application count
+
+  For each of those, there is a file with "neo198" in its name, the zipped
+  data imported into Neo4j 1.9.8. Its contents can be used with an embedded
+  or server instance of Neo4j, by putting them in the respective data
+  directory. Partially automated upgrades are requried for later versions;
+  servers may have to be started using "start-no-wait" instead of "start".
 
 
 XML Structure:
